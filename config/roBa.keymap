@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R             &kp T                                                   &kp Y        &kp U  &lt 4 I    &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F             &kp G            &kp LS(LG(S))       &kp MINUS          &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z      &kp X         &kp C         &kp V             &kp B            &kp LEFT_SHIFT      &kp RIGHT_CONTROL  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 RG(LANG2)  &kp SPACE           &kp ENTER          &lt 2 LANG1                             &kp DEL
+&kp Q      &kp W         &kp E         &kp R             &kp T                                                          &kp Y        &kp U  &lt 4 I    &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F             &kp G                   &kp LS(LG(S))       &kp RIGHT_CONTROL  &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z      &kp X         &kp C         &kp V             &kp B                   &kp LEFT_SHIFT      &kp ESCAPE         &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 RG(LANG_HANGEUL)  &kp SPACE           &kp ENTER          &lt 2 LANG1                             &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -76,10 +76,10 @@
 
         Symbols {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp DOLLAR        &kp PERCENT                      &kp CARET       &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TILDE        &kp GRAVE    &kp LESS_THAN  &kp GREATER_THAN  &trans       &trans      &trans  &kp MINUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PLUS              &kp COLON
-&trans           &trans       &trans         &trans            &trans       &trans      &trans  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL             &kp QUESTION
-&trans           &trans       &trans         &trans            &trans       &trans      &trans  &trans                                                                     &kp BACKSLASH
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp DOLLAR        &kp PERCENT                             &kp CARET       &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp TILDE        &kp GRAVE    &kp LESS_THAN  &kp GREATER_THAN  &trans       &trans      &trans         &kp MINUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PLUS              &kp COLON
+&trans           &trans       &trans         &trans            &trans       &trans      &trans         &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL             &kp QUESTION
+&trans           &trans       &trans         &trans            &trans       &trans      &kp BACKSPACE  &trans                                                                     &kp BACKSLASH
             >;
         };
 
